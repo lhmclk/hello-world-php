@@ -1,5 +1,4 @@
 FROM alpine
-MAINTAINER support@tutum.co
 RUN apk --update add nginx php-fpm && \
     mkdir -p /var/log/nginx && \
     touch /var/log/nginx/access.log && \
